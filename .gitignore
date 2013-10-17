@@ -1,0 +1,57 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# eclipse         #
+###################
+target/
+target-eclipse/
+.project
+.classpath
+.settings
+.springBeans
+build/
+.gradle
+bin/
+
+# Gemfire         #
+###################
+vf.gf.dmn-events.txt
+vf.gf.dmn-license.cfg
+dist/
+sqlfireclient-1.0.3.jar
+*.db
+*.log
+*.yml
+config/lobot.yml
+.architect
+*.xds
+metadata/
+.sass-cache/
+Gemfile.lock
+Guardfile
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+

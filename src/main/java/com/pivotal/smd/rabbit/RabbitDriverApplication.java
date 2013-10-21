@@ -35,7 +35,7 @@ public class RabbitDriverApplication implements CommandLineRunner
     @Autowired
     ApplicationContext ctx;
 
-    @Autowired
+    @Autowired(required = false)
     RabbitTest rabbitTest;
 
     @Override

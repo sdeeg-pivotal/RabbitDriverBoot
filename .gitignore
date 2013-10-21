@@ -55,3 +55,6 @@ Guardfile
 *.sql
 *.sqlite
 
+# IntelliJ IDEA
+.idea
+*.iml
